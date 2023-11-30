@@ -17,7 +17,7 @@ export default class TotalVotos extends Component {
         abstinencia:0,
         total:0,
     };
-    this.socket = io('http://10.0.2.2:3000');
+    this.socket = io('http://192.168.2.15:3000');
 
   }
   

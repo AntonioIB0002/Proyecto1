@@ -16,8 +16,7 @@ class AcuerdoN extends Component {
       check3: false,
       seleccionado: false,
     };
-    this.socket = io('http://10.0.2.2:3000');
-
+    this.socket = io('http://192.168.2.15:3000');
   }
 
   cambiar1 = () => {

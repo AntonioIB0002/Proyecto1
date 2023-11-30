@@ -29,10 +29,10 @@ export default class Inicio_consejero extends Component {
         }
        }
     }
-};
-    xhttp.open("GET", "https://proyecto1vots.000webhostapp.com/verifica.php?username="+this.state.username+"&password="+this.state.password, true);
-    
-    xhttp.send();
+    };
+      xhttp.open("GET", "https://proyecto1vots.000webhostapp.com/verifica.php?username="+this.state.username+"&password="+this.state.password, true);
+      
+      xhttp.send();
     };
 
     const navigation = this.context;
